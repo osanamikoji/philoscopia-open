@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GitHubDriveSync のプライバシーポリシー。">
+  <title>プライバシーポリシー — GitHubDriveSync</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow">GitHubDriveSync</p>
+    <h1>プライバシーポリシー</h1>
+    <p>GitHubDriveSync は、管理者本人の GitHub リポジトリから Google ドライブへデータを同期する個人用ツールです。</p>
+
+    <h2>1. 取り扱うデータ</h2>
+    <p>Google OAuth の認証情報、Google ドライブ上の同期先フォルダとそのファイルの情報、同期結果の記録を取り扱います。認証に使用する OAuth 権限は Google Drive の広範なファイル操作を許可するものですが、同期プログラムは管理者が指定した専用フォルダを同期先とします。</p>
+
+    <h2>2. 利用目的</h2>
+    <p>GitHub のファイルを ZIP と参照用テキストに変換して保存し、前回の同期結果と照合し、転送内容を検証するためだけに利用します。</p>
+
+    <h2>3. 保存と共有</h2>
+    <p>同期ファイルは管理者本人の Google ドライブに保存します。同期作業は GitHub Actions 上で実行されます。OAuth 認証情報は GitHub Actions の Secrets に保管し、公開ページには掲載しません。データの販売、広告目的での利用、一般公開は行いません。サービス実行に必要な Google および GitHub の基盤を利用します。</p>
+
+    <h2>4. 保持期間と削除</h2>
+    <p>作成された同期ファイルと記録は、管理者が Google ドライブから削除するまで保持されます。管理者は Google アカウントの連携設定からアプリのアクセスを取り消すことができます。</p>
+
+    <h2>5. この公開ページ</h2>
+    <p>このページは説明のための静的なウェブサイトで、独自のアクセス解析、広告、入力フォームは設けていません。公開ページのホスティングには GitHub Pages を利用します。</p>
+
+    <h2>6. お問い合わせ</h2>
+    <p><a href="https://github.com/osanamikoji">管理者の GitHub プロフィール</a></p>
+
+    <hr>
+    <h2 lang="en">Privacy Policy (English summary)</h2>
+    <div lang="en">
+      <p>GitHubDriveSync is a personal tool for copying the owner's GitHub repository files to the owner's Google Drive. It uses Google Drive OAuth authorization to create, list, read, verify, and update files for syncing in a designated folder. The OAuth scope permits broad Drive access, but the sync code targets the designated folder.</p>
+      <p>Repository archives, text indexes, and sync records remain in the owner's Google Drive; this website does not publish them. The sync runs on GitHub Actions, with OAuth credentials stored in GitHub Actions Secrets. The tool does not sell, advertise with, or intentionally disclose user data publicly. Google and GitHub infrastructure are used to operate the tool.</p>
+      <p>Copies and records remain until the owner deletes them; the owner can revoke Google account access. This static site has no proprietary analytics, ads, or collection forms. For contact, see the linked GitHub profile.</p>
+    </div>
+    <footer><a href="index.html">ホームへ戻る / Home</a> · <a href="terms.html">利用条件</a></footer>
+  </main>
+</body>
+</html>
