@@ -2,6 +2,11 @@ name: Publish GitHubDriveSync information pages
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'oauth-site/**'
+      - '.github/workflows/publish-githubdrivesync.yml'
 
 permissions:
   contents: read
